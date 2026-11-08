@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "source": "WIN11-CHROME-PLAYWRIGHT-OFFLINE-ORIGINAL-HOST",
+  "run": "FUJU-GAME-TEST-20261108",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "asset-present-index.html",
+      "pass": true
+    },
+    {
+      "name": "asset-present-styles.css",
+      "pass": true
+    },
+    {
+      "name": "asset-present-data.js",
+      "pass": true
+    },
+    {
+      "name": "asset-present-recipes.js",
+      "pass": true
+    },
+    {
+      "name": "asset-present-game.js",
+      "pass": true
+    },
+    {
+      "name": "file-url",
+      "pass": true
+    },
+    {
+      "name": "landing-title",
+      "pass": true
+    },
+    {
+      "name": "data-loaded",
+      "pass": true
+    },
+    {
+      "name": "chapter1-visible",
+      "pass": true
+    },
+    {
+      "name": "hotspot-visible",
+      "pass": true
+    },
+    {
+      "name": "inventory-first-chapter",
+      "pass": true
+    },
+    {
+      "name": "scene2",
+      "pass": true
+    },
+    {
+      "name": "puzzle-is-gate",
+      "pass": true
+    },
+    {
+      "name": "puzzle-window",
+      "pass": true
+    },
+    {
+      "name": "puzzle-solved",
+      "pass": true
+    },
+    {
+      "name": "chapter-gate-open",
+      "pass": true
+    },
+    {
+      "name": "saved-native-local-storage",
+      "pass": true
+    },
+    {
+      "name": "resume-enabled-after-reload",
+      "pass": true
+    },
+    {
+      "name": "resumes-exact-scene",
+      "pass": true
+    },
+    {
+      "name": "resumes-puzzle",
+      "pass": true
+    },
+    {
+      "name": "scene3",
+      "pass": true
+    },
+    {
+      "name": "no-javascript-errors",
+      "pass": true
+    },
+    {
+      "name": "no-network-request",
+      "pass": true
+    }
+  ],
+  "jsErrors": [],
+  "networkRequests": [],
+  "gamePath": "D:\\AUTOFABRICADOR-RESCATE\\FUJU-GAME-TEST-20261108\\UNPACKED-R1\\FUJU-JUEGO-JUGABLE-R1",
+  "passCount": 23,
+  "checkCount": 23
+}

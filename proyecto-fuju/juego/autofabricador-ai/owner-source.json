@@ -1,0 +1,294 @@
+{
+  "schema": 1,
+  "language": "javascript",
+  "dependencies": [],
+  "entry": "src/index.js",
+  "exportName": "chapterCleared",
+  "goal": "Repair a genuinely FAILED 2-module ESM implementation for an eight-chapter fantasy game. The earlier AI mistakenly used cumulative chapter masks and failed 12 independently frozen owner cases. Chapter boundaries: starts=[0,2,4,7,10,12,15,17]; lengths=[2,2,3,3,2,3,2,2] (each chapter only its own puzzle bits, not previous chapters). In src/rules.js implement requiredMask(chapter) using mathematical identity ((1<<length)-1)<<start, with chapter in integer 1..8. src/index.js must export chapterCleared(chapter,solvedMask), return true only for valid integer chapter 1..8 and non-negative integer solvedMask when ALL required bits of that chapter are set. Unrelated bit positions do not matter. Do not modify owner tests. Return both COMPLETE ESM files; no Node/browser APIs, network or dependencies.",
+  "sources": {
+    "src/rules.js": "export function requiredMask(chapter) { const ranges={1:0b11,2:0b1100,3:0b1111000,4:0b1111110000,5:0b1111111100000,6:0b111111111111000,7:0b1111111111111100,8:0b1111111111111111000000}; return ranges[chapter]||0; }\n",
+    "src/index.js": "import { requiredMask } from './rules.js'; export function chapterCleared(chapter, solvedMask) { if (!Number.isInteger(chapter) || chapter<1 || chapter>8 || !Number.isInteger(solvedMask) || solvedMask<0) return false; const required=requiredMask(chapter); return (required & solvedMask) === required; }\n"
+  },
+  "acceptance": [
+    {
+      "args": [
+        1,
+        3
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        1,
+        1
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        1,
+        0
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        1,
+        7
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        2,
+        12
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        2,
+        4
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        2,
+        0
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        2,
+        28
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        3,
+        112
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        3,
+        48
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        3,
+        0
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        3,
+        240
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        4,
+        896
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        4,
+        384
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        4,
+        0
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        4,
+        1920
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        5,
+        3072
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        5,
+        1024
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        5,
+        0
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        5,
+        7168
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        6,
+        28672
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        6,
+        12288
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        6,
+        0
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        6,
+        61440
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        7,
+        98304
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        7,
+        32768
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        7,
+        0
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        7,
+        229376
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        8,
+        393216
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        8,
+        131072
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        8,
+        0
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        8,
+        393217
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        -1,
+        524287
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        0,
+        524287
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        9,
+        524287
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        100,
+        524287
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        1.2,
+        524287
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        1,
+        -5
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        1,
+        0
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        1,
+        1.5
+      ],
+      "expected": false
+    }
+  ]
+}

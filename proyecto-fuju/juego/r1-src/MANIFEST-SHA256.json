@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "package": "FUJU-JUEGO-JUGABLE-R1",
+  "status": "PLAYABLE_PROTOTYPE_NOT_AUTOFACTORY_COMPLETE",
+  "entries": {
+    "index.html": "e64104019dadd3f23b4dbf13cebf156e98795973500cec08642bc106f30c9789",
+    "styles.css": "47fb6ece7166d0d20955c2871a2e7a6ff244482967b2026e4b35501741a6b4b5",
+    "game.js": "0a711a8bc5a484ec8d529163bc872386e9ea526f03886841fc75f14ee7e355f9",
+    "data.js": "39df79714b8bb8cd61c2afc0eabd5bce90c79e596598a550735cea88a4c9ee36",
+    "recipes.js": "1b4ca65a86913f489141a41b0f55395354b2cb1036c32e765742749fa65855d2",
+    "LEEME-PRIMERO.md": "b9ac5be0a2bac7cb0bdb414dabeaccbdfab73bfb2489ec7b06372501755828ad",
+    "INICIAR_JUEGO.cmd": "c369a077a253e26e89b85071fb50bb426ab159e49027572d5f1f18497386f266",
+    "build-sources.json": "155cd94e3847cc8593ff08bb40e4198b09e8db400399d2b4f35014afb7aa5be3",
+    "qa/browser-results.json": "2dbb35b1388c77793726239fe2f617d7b744bdd951dc46e2c586840f7f624d10",
+    "qa/browser_test.py": "90007a80b77ed4c31086f8d272363319f072b2e06f2cd35e41151cc405c5b14c",
+    "qa/visual-start.png": "f485b2c6f9262b21cedd525bbd49bf88b0351b6f125da83444343b466b35dc87",
+    "qa/visual-scene.png": "d8b906ec7d273019286ecd8923e5d6f09ce8d12ee2cb99859d60d3eaa7083fac",
+    "qa/visual-ending.png": "ba367e5531288acdf50b5500d8235fdffe9650cfe2dacdcf98d80e88deace024"
+  }
+}

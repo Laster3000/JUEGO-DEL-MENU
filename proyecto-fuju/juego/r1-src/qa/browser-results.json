@@ -1,0 +1,549 @@
+{
+  "schema": 1,
+  "status": "PASS",
+  "cases": [
+    {
+      "name": "Portada visible",
+      "pass": true
+    },
+    {
+      "name": "Sin partida previa no existe continuar",
+      "pass": true
+    },
+    {
+      "name": "Comenzar partida",
+      "pass": true
+    },
+    {
+      "name": "Hotspots accesibles",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0101 cargado",
+      "pass": true
+    },
+    {
+      "name": "Escena S0101 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0102 cargado",
+      "pass": true
+    },
+    {
+      "name": "No se puede saltar P01",
+      "pass": true
+    },
+    {
+      "name": "Ventana P01 visible",
+      "pass": true
+    },
+    {
+      "name": "Error reversible",
+      "pass": true
+    },
+    {
+      "name": "Pistas escalonadas",
+      "pass": true
+    },
+    {
+      "name": "P01 finalizado",
+      "pass": true
+    },
+    {
+      "name": "P01 ventana cerrada",
+      "pass": true
+    },
+    {
+      "name": "Escena S0102 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0103 cargado",
+      "pass": true
+    },
+    {
+      "name": "No se puede saltar P02",
+      "pass": true
+    },
+    {
+      "name": "Ventana P02 visible",
+      "pass": true
+    },
+    {
+      "name": "P02 finalizado",
+      "pass": true
+    },
+    {
+      "name": "P02 ventana cerrada",
+      "pass": true
+    },
+    {
+      "name": "Escena S0103 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0201 cargado",
+      "pass": true
+    },
+    {
+      "name": "No se puede saltar P03",
+      "pass": true
+    },
+    {
+      "name": "Ventana P03 visible",
+      "pass": true
+    },
+    {
+      "name": "P03 finalizado",
+      "pass": true
+    },
+    {
+      "name": "P03 ventana cerrada",
+      "pass": true
+    },
+    {
+      "name": "Escena S0201 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0202 cargado",
+      "pass": true
+    },
+    {
+      "name": "No se puede saltar P04",
+      "pass": true
+    },
+    {
+      "name": "Ventana P04 visible",
+      "pass": true
+    },
+    {
+      "name": "P04 finalizado",
+      "pass": true
+    },
+    {
+      "name": "P04 ventana cerrada",
+      "pass": true
+    },
+    {
+      "name": "Escena S0202 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0203 cargado",
+      "pass": true
+    },
+    {
+      "name": "Escena S0203 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0301 cargado",
+      "pass": true
+    },
+    {
+      "name": "No se puede saltar P05",
+      "pass": true
+    },
+    {
+      "name": "Ventana P05 visible",
+      "pass": true
+    },
+    {
+      "name": "P05 finalizado",
+      "pass": true
+    },
+    {
+      "name": "P05 ventana cerrada",
+      "pass": true
+    },
+    {
+      "name": "Escena S0301 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0302 cargado",
+      "pass": true
+    },
+    {
+      "name": "No se puede saltar P06",
+      "pass": true
+    },
+    {
+      "name": "Ventana P06 visible",
+      "pass": true
+    },
+    {
+      "name": "P06 finalizado",
+      "pass": true
+    },
+    {
+      "name": "P06 ventana cerrada",
+      "pass": true
+    },
+    {
+      "name": "Escena S0302 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0303 cargado",
+      "pass": true
+    },
+    {
+      "name": "No se puede saltar P07",
+      "pass": true
+    },
+    {
+      "name": "Ventana P07 visible",
+      "pass": true
+    },
+    {
+      "name": "P07 finalizado",
+      "pass": true
+    },
+    {
+      "name": "P07 ventana cerrada",
+      "pass": true
+    },
+    {
+      "name": "Escena S0303 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0401 cargado",
+      "pass": true
+    },
+    {
+      "name": "No se puede saltar P08",
+      "pass": true
+    },
+    {
+      "name": "Ventana P08 visible",
+      "pass": true
+    },
+    {
+      "name": "P08 finalizado",
+      "pass": true
+    },
+    {
+      "name": "P08 ventana cerrada",
+      "pass": true
+    },
+    {
+      "name": "Escena S0401 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0402 cargado",
+      "pass": true
+    },
+    {
+      "name": "No se puede saltar P09",
+      "pass": true
+    },
+    {
+      "name": "Ventana P09 visible",
+      "pass": true
+    },
+    {
+      "name": "P09 finalizado",
+      "pass": true
+    },
+    {
+      "name": "P09 ventana cerrada",
+      "pass": true
+    },
+    {
+      "name": "Escena S0402 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0403 cargado",
+      "pass": true
+    },
+    {
+      "name": "No se puede saltar P10",
+      "pass": true
+    },
+    {
+      "name": "Ventana P10 visible",
+      "pass": true
+    },
+    {
+      "name": "P10 finalizado",
+      "pass": true
+    },
+    {
+      "name": "P10 ventana cerrada",
+      "pass": true
+    },
+    {
+      "name": "Escena S0403 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Estado conservado durante partida",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0501 cargado",
+      "pass": true
+    },
+    {
+      "name": "No se puede saltar P11",
+      "pass": true
+    },
+    {
+      "name": "Ventana P11 visible",
+      "pass": true
+    },
+    {
+      "name": "P11 finalizado",
+      "pass": true
+    },
+    {
+      "name": "P11 ventana cerrada",
+      "pass": true
+    },
+    {
+      "name": "Escena S0501 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0502 cargado",
+      "pass": true
+    },
+    {
+      "name": "No se puede saltar P12",
+      "pass": true
+    },
+    {
+      "name": "Ventana P12 visible",
+      "pass": true
+    },
+    {
+      "name": "P12 finalizado",
+      "pass": true
+    },
+    {
+      "name": "P12 ventana cerrada",
+      "pass": true
+    },
+    {
+      "name": "Escena S0502 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0503 cargado",
+      "pass": true
+    },
+    {
+      "name": "Escena S0503 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0601 cargado",
+      "pass": true
+    },
+    {
+      "name": "No se puede saltar P13",
+      "pass": true
+    },
+    {
+      "name": "Ventana P13 visible",
+      "pass": true
+    },
+    {
+      "name": "P13 finalizado",
+      "pass": true
+    },
+    {
+      "name": "P13 ventana cerrada",
+      "pass": true
+    },
+    {
+      "name": "Escena S0601 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0602 cargado",
+      "pass": true
+    },
+    {
+      "name": "No se puede saltar P14",
+      "pass": true
+    },
+    {
+      "name": "Ventana P14 visible",
+      "pass": true
+    },
+    {
+      "name": "P14 finalizado",
+      "pass": true
+    },
+    {
+      "name": "P14 ventana cerrada",
+      "pass": true
+    },
+    {
+      "name": "Escena S0602 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0603 cargado",
+      "pass": true
+    },
+    {
+      "name": "No se puede saltar P15",
+      "pass": true
+    },
+    {
+      "name": "Ventana P15 visible",
+      "pass": true
+    },
+    {
+      "name": "P15 finalizado",
+      "pass": true
+    },
+    {
+      "name": "P15 ventana cerrada",
+      "pass": true
+    },
+    {
+      "name": "Escena S0603 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0701 cargado",
+      "pass": true
+    },
+    {
+      "name": "No se puede saltar P16",
+      "pass": true
+    },
+    {
+      "name": "Ventana P16 visible",
+      "pass": true
+    },
+    {
+      "name": "P16 finalizado",
+      "pass": true
+    },
+    {
+      "name": "P16 ventana cerrada",
+      "pass": true
+    },
+    {
+      "name": "Escena S0701 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0702 cargado",
+      "pass": true
+    },
+    {
+      "name": "No se puede saltar P17",
+      "pass": true
+    },
+    {
+      "name": "Ventana P17 visible",
+      "pass": true
+    },
+    {
+      "name": "P17 finalizado",
+      "pass": true
+    },
+    {
+      "name": "P17 ventana cerrada",
+      "pass": true
+    },
+    {
+      "name": "Escena S0702 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0703 cargado",
+      "pass": true
+    },
+    {
+      "name": "Escena S0703 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0801 cargado",
+      "pass": true
+    },
+    {
+      "name": "No se puede saltar P18",
+      "pass": true
+    },
+    {
+      "name": "Ventana P18 visible",
+      "pass": true
+    },
+    {
+      "name": "P18 finalizado",
+      "pass": true
+    },
+    {
+      "name": "P18 ventana cerrada",
+      "pass": true
+    },
+    {
+      "name": "Escena S0801 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0802 cargado",
+      "pass": true
+    },
+    {
+      "name": "Escena S0802 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Escenario S0803 cargado",
+      "pass": true
+    },
+    {
+      "name": "No se puede saltar P19",
+      "pass": true
+    },
+    {
+      "name": "Ventana P19 visible",
+      "pass": true
+    },
+    {
+      "name": "P19 finalizado",
+      "pass": true
+    },
+    {
+      "name": "P19 ventana cerrada",
+      "pass": true
+    },
+    {
+      "name": "Escena S0803 desbloqueada",
+      "pass": true
+    },
+    {
+      "name": "Los 19 acertijos completados",
+      "pass": true
+    },
+    {
+      "name": "Final accesible",
+      "pass": true
+    },
+    {
+      "name": "Rama final E02",
+      "pass": true
+    },
+    {
+      "name": "Sin excepciones de JavaScript ni errores de consola",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "total": 135,
+  "passed": 135
+}

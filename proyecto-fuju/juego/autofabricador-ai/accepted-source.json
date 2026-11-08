@@ -1,0 +1,7 @@
+{
+  "files": {
+    "src/index.js": "import { requiredMask } from './rules.js';\n\nexport function chapterCleared(chapter, solvedMask) {\n  if (!Number.isInteger(chapter) || chapter < 1 || chapter > 8 || !Number.isInteger(solvedMask) || solvedMask < 0) return false;\n  const required = requiredMask(chapter);\n  return (required & solvedMask) === required;\n}\n",
+    "src/rules.js": "const starts = [0, 2, 4, 7, 10, 12, 15, 17];\nconst lengths = [2, 2, 3, 3, 2, 3, 2, 2];\n\nexport function requiredMask(chapter) {\n  const start = starts[chapter - 1];\n  const length = lengths[chapter - 1];\n  return ((1 << length) - 1) << start;\n}\n"
+  },
+  "schema": 1
+}
