@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "objectiveId": "af-fuju-game2d-manufacturing-proof-20261108",
+  "functionalId": "AF.FACTORY.GAME2D",
+  "releaseId": "FUJU-R2",
+  "revisionId": "R2",
+  "operationIds": [
+    "FC-005b88fedb044dc4",
+    "FC-3d98a854d33b4128"
+  ],
+  "originalAIRepoJobs": [
+    "RJ-9ac71087da8a4a48",
+    "RJ-12d52c7a90e047d1"
+  ],
+  "originalFailure": "STAGNATED_IDENTICAL_SOURCE_AFTER_28_OF_40_TESTS",
+  "originalSuccess": "PASS_SCOPED_WASI_BROWSER_OFFLINE_40_CASES",
+  "gameChromeE2E": {
+    "status": "PASS",
+    "checks": 188,
+    "passed": 188,
+    "failure": 0
+  },
+  "githubRepo": "https://github.com/Laster3000/JUEGO-DEL-MENU",
+  "githubZipPath": "proyecto-fuju/juego/FUJU_JUEGO_JUGABLE_R2.zip",
+  "zipSHA256": "ff5ad6eda983dd8465048647eac60328079637e99a8a743bee0ffe42cc92a20c",
+  "r1Preserved": true,
+  "originalProductUnmodified": true,
+  "M1": "PASS_SCOPED",
+  "M2": "PASS",
+  "M3": "PASS",
+  "M4": "NOT_APPLICABLE",
+  "M5": "PASS_PORTABLE_ONLY",
+  "M6": "BLOCKED_INDEPENDENT_PHYSICAL_ACCEPTANCE",
+  "limitations": [
+    "Full autonomous game generation NOT demonstrated",
+    "Art provisional, human game-quality review pending",
+    "No independent physical PC acceptance"
+  ],
+  "nextAction": "User playtest, polish assets/novel-to-game fidelity, then general-factory E2E on different app.",
+  "checkpointType": "PROJECT_NOT_RESTORE_POINT",
+  "atUtc": "2026-11-08T20:47:17.414872+00:00"
+}

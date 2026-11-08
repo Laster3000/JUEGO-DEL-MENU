@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "status": "PASS_READBACK_REHEARSED_RESTORE",
+  "atUtc": "2026-11-08T20:47:17.414872+00:00",
+  "sourceSHA256": "ff5ad6eda983dd8465048647eac60328079637e99a8a743bee0ffe42cc92a20c",
+  "manifestSHA256": "b05d685e84b651e98f8e97d7476b40ee8421cbbf7341e05f9496d2ebabcf47bc",
+  "verifiedFiles": 21,
+  "recoveredGameIndex": "D:\\AUTOFABRICADOR-RESCATE\\FUJU-GAME-TEST-20261108\\RECOVERY-R2\\RESTORED-CLEAN-R2\\FUJU-JUEGO-JUGABLE-R2\\index.html"
+}
