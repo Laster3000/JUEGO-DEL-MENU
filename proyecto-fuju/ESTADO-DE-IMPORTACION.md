@@ -1,30 +1,25 @@
-# Entrega FUJU - estado de importación a GitHub
+# Estado de entrega FUJU en GitHub
 
-Este proyecto está vinculado a la novela original **El andén de los nombres que faltan** y a un juego de aventura gráfica de ocho capítulos.
+**Importación del paquete completo: VERIFICADA.**
 
-## Publicado y recuperable desde GitHub
-- `novela/NOVELA-COMPLETA.md`: edición de lectura en Markdown.
-- `novela/01.md` a `08.md`: ocho capítulos originales.
-- `novela/01-ampliacion.md` a `08-ampliacion.md`: material narrativo adicional.
-- `tecnico/HANDOFF-AUTOFABRICA.md`: handoff de implementación.
-- `tecnico/DOSSIER-CANON-COMPLETO.md`: canon y soluciones, contiene spoilers.
-- `LEEME-PRIMERO.md`: instrucciones de la entrega.
+La entrega canónica se encuentra en `proyecto-fuju/FUJU_ENTREGA_COMPLETA.zip`, que contiene los 37 archivos originales, incluidos la novela en PDF/DOCX/EPUB, el handoff, los JSON estructurados, fuentes de capítulos y scripts de comprobación. Su contenido se ha publicado íntegro como blob Git:
 
-## Entrega ZIP original (no importada todavía al repositorio)
-Archivo: `FUJU_ENTREGA_COMPLETA.zip`; SHA-256:
-`4e0074c0943893ce08744730c2ca2dee152df3a6c72c12ccc9d4ec4d44fd4c90`.
+- Git blob SHA-1: `a027737b1e028eb4a494bea3d21fa2fd5b6f1c3a`
+- ZIP SHA-256 original: `4e0074c0943893ce08744730c2ca2dee152df3a6c72c12ccc9d4ec4d44fd4c90`
+- Commit que incorporó el ZIP: `160389be4027611afeffa561e41fafff1d80e31f`
 
-El ZIP original contiene 37 entradas (37 archivos), está íntegro y se entregó como adjunto en la conversación ChatGPT. **No se debe confundir la documentación subida con una importación completa de ese ZIP.**
+Además del ZIP, hay una copia de lectura directa de la novela y de la documentación principal en las carpetas `novela/` y `tecnico/`. **Para reconstruir el conjunto completo, extraer el ZIP**, no depender de los Markdown visibles individualmente.
 
-Pendientes de incorporar al repo mediante una transferencia binaria verificada: PDF, DOCX, EPUB, JSON estructurados (canon, interacciones y diálogos), scripts Python, manifiesto y QA. La ausencia de esos archivos en GitHub **no** significa que fueran eliminados del paquete original.
+## Recuperación
+1. Descargar `FUJU_ENTREGA_COMPLETA.zip` desde el repositorio.
+2. Verificar su SHA-256 y abrir el ZIP.
+3. Extraer su carpeta `FUJU_HISTORIA_Y_FABRICA`.
+4. Leer `LEEME-PRIMERO.md` y validar los hashes de `MANIFEST-SHA256.json` contra los archivos reales.
+5. No tratar la documentación y las pruebas estáticas como un juego implementado o ensayado de extremo a extremo.
 
-## Identificadores SHA-256 de formatos finales
-- Novela PDF A6: `50b6388089c9b4ab3e7fa7e879a519f89d4b29b9fbb53a33a9d035aa79e3b09a`
-- Novela DOCX: `67d482e756f580edc6cc519d8d45a5225136e3395c022d10da742a9ac26b35fe`
-- Novela EPUB: `90a8a1bda3568d22d98f3d30b2cbd6bd50ae861a6c8ecf37fe5bcc9479c6bd46`
-- Handoff PDF: `d11acd0fd056e914e5996fdf41018e17ef33eae01beecdbe076ab768bdf25228`
-- Handoff DOCX: `8b2beb4946fcdb080fbd7f6a2be1a8d42f69b762e5dace8e504a6704827fc51a`
+## Diferencia entre contenido y juego
+- Novela, canon, contrato narrativo y handoff: **REDACTADOS**.
+- Juego 2D final, arte interactivo, música y validación de la aventura completa: **PENDIENTES**.
+- **No se ha instalado nada** en la máquina local.
 
-**Estado de desarrollo:** novela y documentación redactadas. Motor de juego no implementado ni aceptado extremo a extremo. Prohibido declarar el videojuego terminado por existir archivos de guion.
-
-**Siguiente acción:** importar los archivos faltantes desde el ZIP original, verificar contra manifest y lectura posterior de GitHub. No modificar ni reescribir archivos existentes por suposiciones.
+**Precaución:** los documentos de diseño y datos canónicos contienen spoilers del argumento y puzles.
