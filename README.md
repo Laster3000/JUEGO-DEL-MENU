@@ -1,25 +1,24 @@
-# JUEGO DEL MENÚ — aventura FUJU
+# JUEGO DEL MENÚ — aventura gráfica FUJU
 
-Una aventura gráfica original de fantasía, investigación y puzles, creada como proyecto independiente para probar AUTOFABRICADOR. Contiene novela y un prototipo offline de navegador con 8 capítulos.
+Proyecto independiente, con el canon narrativo original vinculado a AUTOFABRICADOR.
 
-## Jugar ahora
+## Jugar ahora (versión R2)
 
-**[Descargar prototipo R1](proyecto-fuju/juego/FUJU_JUEGO_JUGABLE_R1.zip)**. Extrae el ZIP y abre `index.html` en Chrome o Edge. No requiere servidor ni Internet. El progreso se guarda localmente en el navegador.
+**[Descargar FUJU — prototipo jugable R2](proyecto-fuju/juego/FUJU_JUEGO_JUGABLE_R2.zip)**. Extraer el ZIP y abrir `FUJU-JUEGO-JUGABLE-R2/index.html` en Chrome o Edge. Juego web local; no necesita instalación, conexión ni arranque automático.
 
-- [Código fuente del prototipo](proyecto-fuju/juego/r1-src/)
-- [Prueba real y estado de AUTOFABRICADOR](proyecto-fuju/juego/ESTADO-PRUEBA-20261108.md)
-- [Componente generado y aceptado por la IA local](proyecto-fuju/juego/autofabricador-ai/)
-- [Novela completa](proyecto-fuju/novela/NOVELA-COMPLETA.md)
-- [Handoff para la fábrica](proyecto-fuju/tecnico/HANDOFF-AUTOFABRICA.md)
-- [Entrega original de 37 archivos](proyecto-fuju/FUJU_ENTREGA_COMPLETA.zip)
-- [Instrucciones de recuperación](proyecto-fuju/LEEME-PRIMERO.md)
+- Ocho capítulos, 24 escenarios, 19 acertijos, inventario, diálogos, guardado y dos desenlaces.
+- Arte **provisional**; este prototipo no sustituye una edición final ilustrada.
+- [Resultados, pruebas, SHA y recuperación de R2](proyecto-fuju/juego/RESULTADOS-Y-RECUPERACION-R2.md): 188/188 casos E2E en Windows Chrome.
+- [Fuentes legibles de R2](proyecto-fuju/juego/r2-src/) y [evidencias de QA](proyecto-fuju/juego/r2-evidence/).
 
-## Resultados y alcance
+## Material narrativo
 
-El prototipo R1 tiene 24 escenarios, 19 puzles, diálogos, inventario, guardado/reanudación y 2 desenlaces. La prueba de laboratorio contabiliza 135/135 comprobaciones superadas; un ensayo adicional en Chrome en el equipo Windows del proyecto superó 23/23. El arte es provisional y no hay banda sonora final.
+El ZIP [FUJU_ENTREGA_COMPLETA.zip](proyecto-fuju/FUJU_ENTREGA_COMPLETA.zip) conserva la novela, el handoff, el canon, datos estructurados y herramientas originales de generación y QA. La carpeta [proyecto-fuju](proyecto-fuju/) facilita la lectura.
 
-**AUTOFABRICADOR NO generó el videojuego entero:** en una prueba con Qwen CUDA7B, el primer intento falló 12/40 casos; un segundo encargo de reparación acabó aceptado con 40/40 casos en WASI y Chromium para un **componente independiente de lógica de capítulos**. El resultado está archivado con fuentes, ZIP original y recibos. La fabricación autónoma de una aventura completa y la validación de hardware independiente siguen pendientes.
+**Advertencia: los handoffs y el canon contienen spoilers.** Para jugar sin anticipar la historia, abrir directamente el juego.
 
-## Precaución
+## Resultado de AUTOFABRICADOR
 
-La documentación técnica incluye spoilers y soluciones a los acertijos. El repositorio no modifica automáticamente el menú original, MMC, servicios de Windows, BOOT ni instalaciones protegidas. Visibilidad pública no equivale a licencia de redistribución.
+La IA local generó y reparó el **módulo de bloqueo de capítulos** con 40/40 casos originales en WASI y Chrome. Ese módulo está integrado en R2, con 188/188 pruebas del prototipo en Chrome de Windows. La fabricación autónoma de la totalidad del juego **no está demostrada**; los contenidos y el motor fueron integrados separadamente.
+
+No se han modificado MMC5.5, MMC7 ni una instalación protegida. Las versiones previas y sus pruebas se conservan.
