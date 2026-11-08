@@ -1,0 +1,764 @@
+{
+  "schema": 1,
+  "system": "ORIGINAL-WINDOWS-CHROME-PLAYWRIGHT-OFFLINE",
+  "revision": "R2",
+  "checks": [
+    {
+      "name": "genuine-model-owner-cases",
+      "pass": true
+    },
+    {
+      "name": "verified-accepted-model-status",
+      "pass": true
+    },
+    {
+      "name": "R2-landing-visible",
+      "pass": true
+    },
+    {
+      "name": "ai-gate-exposed",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-1",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-2",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-3",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-4",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-5",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-6",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-7",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-8",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-9",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-10",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-11",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-12",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-13",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-14",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-15",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-16",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-17",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-18",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-19",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-20",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-21",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-22",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-23",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-24",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-25",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-26",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-27",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-28",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-29",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-30",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-31",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-32",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-33",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-34",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-35",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-36",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-37",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-38",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-39",
+      "pass": true
+    },
+    {
+      "name": "ai-owner-case-40",
+      "pass": true
+    },
+    {
+      "name": "content-matrix-24-8-19",
+      "pass": true
+    },
+    {
+      "name": "new-game-start",
+      "pass": true
+    },
+    {
+      "name": "scene-S0101",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0101",
+      "pass": true
+    },
+    {
+      "name": "scene-S0102",
+      "pass": true
+    },
+    {
+      "name": "puzzle-gate-S0102",
+      "pass": true
+    },
+    {
+      "name": "puzzle-dialog-P01",
+      "pass": true
+    },
+    {
+      "name": "puzzle-complete-P01",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0102",
+      "pass": true
+    },
+    {
+      "name": "scene-S0103",
+      "pass": true
+    },
+    {
+      "name": "puzzle-gate-S0103",
+      "pass": true
+    },
+    {
+      "name": "puzzle-dialog-P02",
+      "pass": true
+    },
+    {
+      "name": "puzzle-complete-P02",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0103",
+      "pass": true
+    },
+    {
+      "name": "scene-S0201",
+      "pass": true
+    },
+    {
+      "name": "puzzle-gate-S0201",
+      "pass": true
+    },
+    {
+      "name": "puzzle-dialog-P03",
+      "pass": true
+    },
+    {
+      "name": "puzzle-complete-P03",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0201",
+      "pass": true
+    },
+    {
+      "name": "scene-S0202",
+      "pass": true
+    },
+    {
+      "name": "puzzle-gate-S0202",
+      "pass": true
+    },
+    {
+      "name": "puzzle-dialog-P04",
+      "pass": true
+    },
+    {
+      "name": "puzzle-complete-P04",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0202",
+      "pass": true
+    },
+    {
+      "name": "scene-S0203",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0203",
+      "pass": true
+    },
+    {
+      "name": "scene-S0301",
+      "pass": true
+    },
+    {
+      "name": "puzzle-gate-S0301",
+      "pass": true
+    },
+    {
+      "name": "puzzle-dialog-P05",
+      "pass": true
+    },
+    {
+      "name": "puzzle-complete-P05",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0301",
+      "pass": true
+    },
+    {
+      "name": "scene-S0302",
+      "pass": true
+    },
+    {
+      "name": "puzzle-gate-S0302",
+      "pass": true
+    },
+    {
+      "name": "puzzle-dialog-P06",
+      "pass": true
+    },
+    {
+      "name": "puzzle-complete-P06",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0302",
+      "pass": true
+    },
+    {
+      "name": "scene-S0303",
+      "pass": true
+    },
+    {
+      "name": "puzzle-gate-S0303",
+      "pass": true
+    },
+    {
+      "name": "puzzle-dialog-P07",
+      "pass": true
+    },
+    {
+      "name": "puzzle-complete-P07",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0303",
+      "pass": true
+    },
+    {
+      "name": "scene-S0401",
+      "pass": true
+    },
+    {
+      "name": "puzzle-gate-S0401",
+      "pass": true
+    },
+    {
+      "name": "puzzle-dialog-P08",
+      "pass": true
+    },
+    {
+      "name": "puzzle-complete-P08",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0401",
+      "pass": true
+    },
+    {
+      "name": "scene-S0402",
+      "pass": true
+    },
+    {
+      "name": "puzzle-gate-S0402",
+      "pass": true
+    },
+    {
+      "name": "puzzle-dialog-P09",
+      "pass": true
+    },
+    {
+      "name": "puzzle-complete-P09",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0402",
+      "pass": true
+    },
+    {
+      "name": "scene-S0403",
+      "pass": true
+    },
+    {
+      "name": "puzzle-gate-S0403",
+      "pass": true
+    },
+    {
+      "name": "puzzle-dialog-P10",
+      "pass": true
+    },
+    {
+      "name": "puzzle-complete-P10",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0403",
+      "pass": true
+    },
+    {
+      "name": "scene-S0501",
+      "pass": true
+    },
+    {
+      "name": "puzzle-gate-S0501",
+      "pass": true
+    },
+    {
+      "name": "puzzle-dialog-P11",
+      "pass": true
+    },
+    {
+      "name": "puzzle-complete-P11",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0501",
+      "pass": true
+    },
+    {
+      "name": "scene-S0502",
+      "pass": true
+    },
+    {
+      "name": "puzzle-gate-S0502",
+      "pass": true
+    },
+    {
+      "name": "puzzle-dialog-P12",
+      "pass": true
+    },
+    {
+      "name": "puzzle-complete-P12",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0502",
+      "pass": true
+    },
+    {
+      "name": "scene-S0503",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0503",
+      "pass": true
+    },
+    {
+      "name": "scene-S0601",
+      "pass": true
+    },
+    {
+      "name": "puzzle-gate-S0601",
+      "pass": true
+    },
+    {
+      "name": "puzzle-dialog-P13",
+      "pass": true
+    },
+    {
+      "name": "puzzle-complete-P13",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0601",
+      "pass": true
+    },
+    {
+      "name": "scene-S0602",
+      "pass": true
+    },
+    {
+      "name": "puzzle-gate-S0602",
+      "pass": true
+    },
+    {
+      "name": "puzzle-dialog-P14",
+      "pass": true
+    },
+    {
+      "name": "puzzle-complete-P14",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0602",
+      "pass": true
+    },
+    {
+      "name": "scene-S0603",
+      "pass": true
+    },
+    {
+      "name": "puzzle-gate-S0603",
+      "pass": true
+    },
+    {
+      "name": "puzzle-dialog-P15",
+      "pass": true
+    },
+    {
+      "name": "puzzle-complete-P15",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0603",
+      "pass": true
+    },
+    {
+      "name": "scene-S0701",
+      "pass": true
+    },
+    {
+      "name": "puzzle-gate-S0701",
+      "pass": true
+    },
+    {
+      "name": "puzzle-dialog-P16",
+      "pass": true
+    },
+    {
+      "name": "puzzle-complete-P16",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0701",
+      "pass": true
+    },
+    {
+      "name": "scene-S0702",
+      "pass": true
+    },
+    {
+      "name": "puzzle-gate-S0702",
+      "pass": true
+    },
+    {
+      "name": "puzzle-dialog-P17",
+      "pass": true
+    },
+    {
+      "name": "puzzle-complete-P17",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0702",
+      "pass": true
+    },
+    {
+      "name": "scene-S0703",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0703",
+      "pass": true
+    },
+    {
+      "name": "scene-S0801",
+      "pass": true
+    },
+    {
+      "name": "puzzle-gate-S0801",
+      "pass": true
+    },
+    {
+      "name": "puzzle-dialog-P18",
+      "pass": true
+    },
+    {
+      "name": "puzzle-complete-P18",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0801",
+      "pass": true
+    },
+    {
+      "name": "scene-S0802",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0802",
+      "pass": true
+    },
+    {
+      "name": "scene-S0803",
+      "pass": true
+    },
+    {
+      "name": "puzzle-gate-S0803",
+      "pass": true
+    },
+    {
+      "name": "puzzle-dialog-P19",
+      "pass": true
+    },
+    {
+      "name": "puzzle-complete-P19",
+      "pass": true
+    },
+    {
+      "name": "scene-unlocked-S0803",
+      "pass": true
+    },
+    {
+      "name": "all-puzzles-solved",
+      "pass": true
+    },
+    {
+      "name": "ending-e02-accessible",
+      "pass": true
+    },
+    {
+      "name": "local-save-written",
+      "pass": true
+    },
+    {
+      "name": "chapter-puzzles-at-least-two-1",
+      "pass": true
+    },
+    {
+      "name": "chapter-boundary-reject-missing-1",
+      "pass": true
+    },
+    {
+      "name": "chapter-boundary-pass-complete-1",
+      "pass": true
+    },
+    {
+      "name": "next-chapter-arrived-1",
+      "pass": true
+    },
+    {
+      "name": "chapter-puzzles-at-least-two-2",
+      "pass": true
+    },
+    {
+      "name": "chapter-boundary-reject-missing-2",
+      "pass": true
+    },
+    {
+      "name": "chapter-boundary-pass-complete-2",
+      "pass": true
+    },
+    {
+      "name": "next-chapter-arrived-2",
+      "pass": true
+    },
+    {
+      "name": "chapter-puzzles-at-least-two-3",
+      "pass": true
+    },
+    {
+      "name": "chapter-boundary-reject-missing-3",
+      "pass": true
+    },
+    {
+      "name": "chapter-boundary-pass-complete-3",
+      "pass": true
+    },
+    {
+      "name": "next-chapter-arrived-3",
+      "pass": true
+    },
+    {
+      "name": "chapter-puzzles-at-least-two-4",
+      "pass": true
+    },
+    {
+      "name": "chapter-boundary-reject-missing-4",
+      "pass": true
+    },
+    {
+      "name": "chapter-boundary-pass-complete-4",
+      "pass": true
+    },
+    {
+      "name": "next-chapter-arrived-4",
+      "pass": true
+    },
+    {
+      "name": "chapter-puzzles-at-least-two-5",
+      "pass": true
+    },
+    {
+      "name": "chapter-boundary-reject-missing-5",
+      "pass": true
+    },
+    {
+      "name": "chapter-boundary-pass-complete-5",
+      "pass": true
+    },
+    {
+      "name": "next-chapter-arrived-5",
+      "pass": true
+    },
+    {
+      "name": "chapter-puzzles-at-least-two-6",
+      "pass": true
+    },
+    {
+      "name": "chapter-boundary-reject-missing-6",
+      "pass": true
+    },
+    {
+      "name": "chapter-boundary-pass-complete-6",
+      "pass": true
+    },
+    {
+      "name": "next-chapter-arrived-6",
+      "pass": true
+    },
+    {
+      "name": "chapter-puzzles-at-least-two-7",
+      "pass": true
+    },
+    {
+      "name": "chapter-boundary-reject-missing-7",
+      "pass": true
+    },
+    {
+      "name": "chapter-boundary-pass-complete-7",
+      "pass": true
+    },
+    {
+      "name": "next-chapter-arrived-7",
+      "pass": true
+    },
+    {
+      "name": "chapter-puzzles-at-least-two-8",
+      "pass": true
+    },
+    {
+      "name": "chapter-boundary-reject-missing-8",
+      "pass": true
+    },
+    {
+      "name": "chapter-boundary-pass-complete-8",
+      "pass": true
+    },
+    {
+      "name": "final-chapter-gate-and-ending",
+      "pass": true
+    },
+    {
+      "name": "zero-js-errors",
+      "pass": true
+    },
+    {
+      "name": "zero-network-requests",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "requests": [],
+  "status": "PASS",
+  "total": 188,
+  "passed": 188
+}

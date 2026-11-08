@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "sourceZipSha256": "4e0074c0943893ce08744730c2ca2dee152df3a6c72c12ccc9d4ec4d44fd4c90",
+  "chapters": 8,
+  "scenes": 24,
+  "puzzles": 19,
+  "dialogueNodes": 48,
+  "hotspots": 123,
+  "recipes": 19,
+  "status": "SOURCE_ASSEMBLY_VALIDATED_NOT_GAMEPLAY_ACCEPTED"
+}
