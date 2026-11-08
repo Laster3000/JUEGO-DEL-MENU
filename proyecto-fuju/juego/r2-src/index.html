@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; media-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="theme-color" content="#241e30">
+<title>El andén de los nombres que faltan — aventura gráfica</title>
+<link rel="stylesheet" href="styles.css">
+<script defer src="data.js"></script><script defer src="recipes.js"></script><script defer src="factory-gate.js"></script><script defer src="game.js"></script>
+</head><body>
+<main class="shell">
+ <header class="topline"><div class="brand"><span class="brand-glyph" aria-hidden="true">✧</span><div><div class="eyebrow">AVENTURA GRÁFICA · EDICIÓN DE PRUEBA R2</div><strong>EL ANDÉN DE LOS NOMBRES QUE FALTAN</strong></div></div><div class="toolbar"><button id="btn-sound" class="topbutton" aria-pressed="false">♫ Sonido: no</button><button id="btn-help" class="topbutton">Controles</button><button id="btn-reset" class="topbutton danger">Reiniciar</button></div></header>
+ <section id="landing" class="landing"><div class="landing-art" aria-hidden="true"><div class="mystery-door"><div class="door-sun">✦</div></div></div><div class="landing-copy"><div class="eyebrow">UNA HISTORIA EN OCHO CAPÍTULOS</div><h1>Hay puertas que solo aparecen cuando recuerdas lo que falta.</h1><p>Explora escenas dibujadas, habla con personajes, guarda objetos y resuelve acertijos originales. Una aventura offline con progreso guardado en este navegador.</p><div class="start-controls"><button id="btn-start" class="large primary">Empezar la aventura</button><button id="btn-resume" class="large">Continuar partida</button></div><p class="fineprint">Prototipo jugable basado en el canon narrativo. Arte temporal vectorial, sin imágenes finales ni música orquestal.</p></div></section>
+ <section id="game" hidden>
+  <div class="chapterbar"><div><div class="eyebrow" id="chapter-number">CAPÍTULO I</div><h2 id="chapter-title">...</h2><p id="location-label">...</p></div><div class="chapter-progress" id="chapter-progress" aria-label="Progreso por capítulos"></div></div>
+  <div class="game-layout">
+   <section class="viewport" aria-label="Escenario interactivo"><canvas id="canvas" width="960" height="540" aria-hidden="true">Escenario dibujado</canvas><div id="hotspots" class="hotspots"></div><div class="scene-tag" id="scene-tag"></div><div id="dialogue-box" class="dialogue" hidden><div class="dialogue-head"><strong id="dialogue-speaker"></strong><button id="btn-dialogue-skip" aria-label="Cerrar conversación">×</button></div><p id="dialogue-text"></p><div id="dialogue-actions" class="dialogue-actions"><button id="btn-dialogue-next">Continuar ▸</button><div id="dialogue-choices"></div></div></div></section>
+   <aside class="sidebar"><div class="sidebar-section"><div class="smalltitle">Tu situación</div><p id="scene-description" class="scene-desc"></p><button id="btn-puzzle" class="primary full">Investigar el misterio de esta escena</button><button id="btn-next" class="full">Seguir adelante ▸</button></div><div class="sidebar-section"><div class="smalltitle">Objetos del abrigo <span id="inventory-count"></span></div><div id="inventory" class="inventory"></div><p id="inventory-action" class="tiny" aria-live="polite">Selecciona un objeto y examina el escenario.</p></div><div class="sidebar-section"><div class="smalltitle">Cuaderno</div><div id="puzzle-count"></div><button id="btn-journal" class="full">Ver anotaciones y pistas</button><button id="btn-talk" class="full">Volver a conversar</button></div></aside>
+  </div><div class="footerline"><span id="status-text" role="status" aria-live="polite">Explora el escenario.</span><span id="save-text">Guardado local</span></div>
+ </section>
+ <div id="overlay" class="overlay" hidden><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal-top"><div><div id="modal-eyebrow" class="eyebrow">ACERTIJO</div><h2 id="modal-title"></h2></div><button id="btn-modal-close" aria-label="Cerrar ventana" class="close">×</button></div><div id="modal-body"></div><div id="modal-feedback" class="feedback" role="status"></div></section></div>
+</main><footer class="credit">Juego de prueba local · 24 escenarios · 19 acertijos · Sin conexión ni cuentas · Los datos permanecen en tu navegador</footer>
+</body></html>

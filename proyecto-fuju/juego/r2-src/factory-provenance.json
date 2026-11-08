@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "originalFactoryStatus": "PASS_SCOPED_WASI_BROWSER_OFFLINE",
+  "factoryWorkflow": "FC-3d98a854d33b4128",
+  "factoryRepoJob": "RJ-12d52c7a90e047d1",
+  "originalOwnerCases": 40,
+  "originalBrowserOwnerCases": 40,
+  "originalAiSourceSha256": "67e604bf6e726b2265e34e94998c28c1601c3520312958fc7ab81d899cc1f5ab",
+  "originalFactoryReceiptSha256": "99f490ed8b754f5382c4a87d4ef69c122db4f6b0fce1fbc8dc5f2e271133468e",
+  "acceptedSourceModules": {
+    "src/index.js": "e4e399ef1c664e9d29e7d3156046111d6aaf614da3c6f0134d9873ccc0a684d4",
+    "src/rules.js": "78c5426ec2bdd4dafa51ad9ad5b85a6cdeb20f349545445604c05fecc1211f3f"
+  },
+  "transformation": "ESM import/export syntax to IIFE global, function bodies unchanged",
+  "hostProtectedInstall": false,
+  "r1Preserved": true,
+  "notUniversalAutoGameFactory": true
+}

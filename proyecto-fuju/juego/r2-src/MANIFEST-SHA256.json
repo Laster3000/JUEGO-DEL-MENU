@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "revision": "R2",
+  "entries": {
+    "build-sources.json": "155cd94e3847cc8593ff08bb40e4198b09e8db400399d2b4f35014afb7aa5be3",
+    "data.js": "39df79714b8bb8cd61c2afc0eabd5bce90c79e596598a550735cea88a4c9ee36",
+    "factory-gate.js": "14bf779aa674cf92eec92790246dada76dfc2250adf0a4abcc6d68f6faa8b3e1",
+    "factory-provenance.json": "9da0bd584e623973c8bd8deeb28bb034a4d9a0fa90a91c5200d042b18ef0e35d",
+    "game.js": "3294cc9cf0370d690aea6a00a4322c064ab72eec6b2639504f1d886c71f77ccb",
+    "index.html": "24fdc62b566bdc1d9d2ddc57fd56c3f210f6565b46476e6988c247cc70ca92c6",
+    "INICIAR_JUEGO.cmd": "c369a077a253e26e89b85071fb50bb426ab159e49027572d5f1f18497386f266",
+    "LEEME-PRIMERO.md": "b4882fdac0bb3c3d3e566780a5bb4768cf9f23845b2442f3354c65e94799e402",
+    "qa/browser-results.json": "2dbb35b1388c77793726239fe2f617d7b744bdd951dc46e2c586840f7f624d10",
+    "qa/browser_test.py": "f80e17dd904ed0943536a54d18fa2cefee4b457216eb5fc0664b8b489c2c56c6",
+    "qa/visual-ending.png": "ba367e5531288acdf50b5500d8235fdffe9650cfe2dacdcf98d80e88deace024",
+    "qa/visual-scene.png": "d8b906ec7d273019286ecd8923e5d6f09ce8d12ee2cb99859d60d3eaa7083fac",
+    "qa/visual-start.png": "f485b2c6f9262b21cedd525bbd49bf88b0351b6f125da83444343b466b35dc87",
+    "recipes.js": "1b4ca65a86913f489141a41b0f55395354b2cb1036c32e765742749fa65855d2",
+    "styles.css": "47fb6ece7166d0d20955c2871a2e7a6ff244482967b2026e4b35501741a6b4b5"
+  }
+}
